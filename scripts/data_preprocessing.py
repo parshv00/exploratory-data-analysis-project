@@ -1,3 +1,10 @@
+"""
+Project: Market Basket Analysis & Retail Data Analytics
+Description: Builds an end-to-end data pipeline including preprocessing,
+database loading, association rule mining, and Power BI integration.
+Author: Your Name
+"""
+
 import pandas as pd
 import os
 
