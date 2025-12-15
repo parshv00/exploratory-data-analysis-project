@@ -20,10 +20,27 @@ This project focuses on analyzing structured business data using Python and visu
 - Created interactive visualizations for better understanding
 
 ## 📁 Project Structure
-config/ - Configuration files
-data/ - Dataset files
-scripts/ - Data analysis scripts
-Dashboard.pbix - Power BI dashboard
+MARKET-BASKET-ANALYSIS/
+│
+├── config/
+│ └── db_config.yaml # MySQL configuration (ignored in Git)
+│
+├── data_processed/
+│ ├── cleaned_retail.csv
+│ ├── association_rules.csv
+│ ├── pbi_customers.csv
+│ ├── pbi_transactions.csv
+│ └── pbi_rules.csv
+│
+├── scripts/
+│ ├── data_preprocessing.py
+│ ├── data_pipeline.py
+│ ├── model_training.py
+│ └── powerbi_integration.py
+│
+├── Dashboard.pbix # Power BI dashboard
+├── requirements.txt
+└── README.md
 
 
 ## 🚀 How to Run
